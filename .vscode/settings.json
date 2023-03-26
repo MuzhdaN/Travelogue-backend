@@ -23,5 +23,17 @@
    "files.autoSave": "off",
    "workbench.colorTheme": "Visual Studio Light",
    "terminal.integrated.gpuAcceleration": "canvas",
-   "editor.defaultFormatter": "HookyQR.beautify"
+   "editor.defaultFormatter": "HookyQR.beautify",
+   "python.testing.pytestArgs": [
+      "blog"
+   ],
+   "python.testing.unittestEnabled": true,
+   "python.testing.pytestEnabled": false,
+   "python.testing.unittestArgs": [
+      "-v",
+      "-s",
+      "./blog",
+      "-p",
+      "*test*.py"
+   ]
 }
