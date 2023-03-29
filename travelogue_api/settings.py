@@ -62,7 +62,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEV' in os.environ
 
-ALLOWED_HOSTS = ['localhost', 'https://git.heroku.com/travelogue-api.git']
+ALLOWED_HOST = ['localhost', 'https://git.heroku.com/travelogue-api.git']
 
 
 # Application definition
