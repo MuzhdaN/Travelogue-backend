@@ -105,7 +105,7 @@ MIDDLEWARE = [
 
 if 'CLIENT_ORIGIN' in os.environ:
     CORS_ALLOWED_ORIGINS = [
-        os.environ.get('CLIENT_ORIGIN')
+        "https://travelogue1.herokuapp.com",
     ]
 
 if 'CLIENT_ORIGIN_DEV' in os.environ:
