@@ -64,7 +64,10 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = 'DEV' in os.environ
 
 
-ALLOWED_HOSTS = ['localhost', 'travelogue-api.herokuapp.com']
+ALLOWED_HOSTS = [
+   os.environ.get('ALLOWED_HOST'),
+   'localhost',
+]
 
 
 # Application definition
